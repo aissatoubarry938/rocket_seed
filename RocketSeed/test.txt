@@ -1,0 +1,25 @@
+
+
+Please see below the questions we would like you to complete.
+
+Question 1:
+Write a bash script that takes a file name as an argument and checks if the file exists. If it does, display "File exists," otherwise display "File not found."
+
+Question 2:
+Write a bash script that reads a file and counts the number of occurrences of each unique word, ignoring case sensitivity and excluding common English words such as "the," "and," and "in." Display the word count in descending order of frequency. You can create your own test files and share that with is when we submit your responses.
+
+Question 3:
+Write a bash script that takes a directory as an argument and recursively finds all the files with a ".txt" extension. For each file, calculate the average number of words per line and display the file name along with its average. Finally, find the file with the highest average word count and display its name and average. Consider edge cases such as empty files and handle them appropriately.
+
+Question 4:
+Create a VM running Ubuntu 2204. Install postgresql. Create a table called users with columns for ID(primary key), Name, Surname, Email Address. Create 4 rows of random test data.  Write a bash script that connects to the PostgreSQL database, executes a query to retrieve data from the users table, and sends the results via email. The script should:
+
+a. Prompt the user for the database credentials (host, port, database name, username, and password).
+b. Connect to the PostgreSQL database using the provided credentials.
+c. Execute a query to retrieve all data from the users table.
+d. Format the query results in a suitable format (e.g., CSV or HTML).
+e. Compose an email with the query results as the content.
+f. Prompt the user to enter the email details (sender's email address, recipient's email address, subject, and optional message).
+g. Send the email using the configured email client on your system (e.g., sendmail or mailx).
+
+Post your scripts to a repo on your  https://github.com/ account and share the link with us. 
